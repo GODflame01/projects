@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple login page</title>
+    <style>
+      *{
+        margin: 0px;
+        padding:0px;
+        box-sizing: border-box;
+      }
+      body{
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        margin:0;
+        background-color: rgb(0, 0, 0);
+        color:whitesmoke;
+        background-image: url(fire.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        
+      }
+
+      form{
+        border:2px solid black;
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        width: 350px;
+        background-color: rgba(7, 5, 5, 0.707);
+        box-shadow: 5px 5px 50px rgb(255, 13, 0);
+        border-radius: 8px;
+        gap: 10px;
+        overflow: hidden;
+        
+      }
+      input{
+        padding: 15px;
+        margin: 10px;
+        box-shadow: inset 2px 2px 25px rgb(248, 181, 105);
+        
+      }
+      label{
+        position:relative;
+        left: 20px;
+        padding: 5px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-family:'Courier New', Courier, monospace;
+      }
+      .login{
+        width: 200px;
+        position: relative;
+        left: 60px;
+        border-radius: 60px;
+        background-color:rgb(241, 110, 10);
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-family:'Courier New', Courier, monospace;
+
+
+      }
+      .login:hover{
+        background-color: rgb(244, 59, 3);
+        cursor: pointer;
+      }
+      .username{
+        width: 320px;
+        border-radius: 10px;
+      }
+      .password{
+        width: 320px;
+        border-radius: 10px;
+      }
+      
+    </style>
+</head>
+
+<body>
+  <form>
+    <label  for="username">Username:</label>
+    <input class="username" type="text"  placeholder=" " id="username" aucomplete="username"> 
+    <label for="password">Password: </label>
+    <input  class="password" placeholder=" " id="password" autocomplete="password">
+     <input class="login" type="submit" value="SIGN IN ">
+  </form>
+</body>
+
+</html>
