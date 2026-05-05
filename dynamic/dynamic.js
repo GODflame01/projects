@@ -67,35 +67,3 @@ butn.addEventListener('click', () => {
         "https://www.youtube.com/watch?v=Zuu6ClXRabE"
     );
 });
-
-// let viewstr= Math.floor(0+Math.random()*10000000);
-// let monthsold= Math.floor(0+Math.random()*300);
-
-
-// let title = ["hey this is the trail video ",
-//     "hey this is the another trail video ",
-//     "hey this is the jst for random ",
-// ];
-   
-// let thumbnail=[
-//         "https://i.ytimg.com/vi/Ft4x7yDJtRc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDWnegEhGIOI9ObxQhtiu18S-lFRw",
-//         "https://i.ytimg.com/vi/CvU-5JI0_wg/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLALX8U5-lvxL3m9fnMiaIXTM_GTqA",
-//         "https://i.ytimg.com/vi/Uys3kwYCA8E/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDp1Kmg7Snq734F3XhZrVFyGNU02A",
-//         "https://i.ytimg.com/vi/-DVlT35zFdQ/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBhekT1mSzCCASaOq67KU7qPaCPcQ",
-
-// ];
-// let displaytitle= title[Math.floor(Math.random()*title.length)];
-// let displaythumbnail= title[Math.floor(Math.random()*thumbnail.length)];
-
-
-
-
-// butn.addEventListener("click", () => {
-    
-    //     createcard(
-        //         "cook",
-        //         "23:44",
-        //         );
-        
-        // });
-        
